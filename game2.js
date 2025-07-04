@@ -58,7 +58,7 @@ function restartgame() {
 
   clearInterval(timeint);
   clearInterval(gameint);
-  timeamount.innerHTML = `${5} `;
+  timeamount.innerHTML = `${30} `;
   scoreamount.innerHTML = "0";
 }
 
